@@ -9,12 +9,15 @@ def test_func_leap_year(year: int, expected_result: str):
     assert leap_year(year) == expected_result
 
 
-@pytest.mark.parametrize("expected_exeption, year", [(TypeError, "2020"),
-                                                     (TypeError, "999")])
-def test_type_error(expected_exeption, year):
-    with pytest.raises(expected_exeption):
+@pytest.mark.parametrize("expected_exception, year", [(TypeError, "2020"),
+                                                      (TypeError, "999"),
+                                                      (ValueError, -2020)])
+def test_type_error(expected_exception, year: str):
+    with pytest.raises(expected_exception):
         leap_year(year)
 
-def test_assertion_error():
+
+def test_name_error():
     with pytest.raises(NameError):
         leap_year(gd565)
+

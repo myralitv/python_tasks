@@ -1,6 +1,11 @@
 def cut_h(word: str) -> str:
+    if not isinstance(word, str):
+        raise TypeError(f'Argument "word" must be string, not {type(word)}')
+    if word.count('h') < 2:
+        raise ValueError(f'Argument "h" must be greater than or equal to 2')
+
     remove_word = 'h'
     return word[:word.index(remove_word)] + word[word.rindex(remove_word) + 1:]
 
-print(cut_h('1234hmvekh567890'))
+print(cut_h('welh1234567890hcome'))
 
