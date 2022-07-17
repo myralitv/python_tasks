@@ -1,4 +1,4 @@
-from src.conditional_operator.func_ice_cream import ice_cream
+from app.conditional_operator.func_ice_cream import ice_cream
 import pytest
 
 

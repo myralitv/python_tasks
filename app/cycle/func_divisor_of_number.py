@@ -5,6 +5,3 @@ def divisor_of_number(number: int) -> list:
         raise ValueError(f'Argument "number":{number} must be greater than 0')
 
     return [divisor for divisor in range(1, number + 1) if number % divisor == 0]
-
-
-print(divisor_of_number(42))

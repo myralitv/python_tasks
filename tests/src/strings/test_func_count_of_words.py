@@ -1,4 +1,4 @@
-from src.strings.func_count_of_words import count_words
+from app.strings.func_count_of_words import count_words
 import pytest
 
 

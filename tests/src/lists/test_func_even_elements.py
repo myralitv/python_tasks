@@ -1,4 +1,4 @@
-from src.lists.func_even_elements import even_elements
+from app.lists.func_even_elements import even_elements
 import pytest
 
 

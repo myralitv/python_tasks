@@ -4,6 +4,3 @@ def even_elements(numbers: tuple[:int, :float]) -> list:
             raise TypeError(f'Argument "number" must be integer, not {type(i)}')
 
     return [number for number in numbers if number % 2 == 0]
-
-
-print(even_elements((1, 3, 6, 11, 9, 7, 9, 4)))

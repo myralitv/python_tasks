@@ -1,4 +1,4 @@
-from src.conditional_operator.func_maximum import maximum
+from app.conditional_operator.func_maximum import maximum
 import pytest
 
 

@@ -1,4 +1,4 @@
-from src.lists.func_max_elem_index import max_index_elements
+from app.lists.func_max_elem_index import max_index_elements
 import pytest
 
 

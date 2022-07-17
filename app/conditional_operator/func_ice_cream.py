@@ -11,6 +11,3 @@ def ice_cream(ice_cream_ball: int) -> str:
         return "Yes"
     else:
         return "No"
-
-
-print(ice_cream(8))

@@ -12,6 +12,3 @@ def leap_year(year: int) -> str:
         return "Yes"
     else:
         return "No"
-
-
-print(leap_year(2024))

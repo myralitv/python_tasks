@@ -5,6 +5,3 @@ def func_replace(string: str) -> str:
         raise ValueError(f'Argument "string":{string} must be greater than or equal to 1')
 
     return string.replace('1', 'one')
-
-
-print(func_replace('ye11ow'))

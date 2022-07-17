@@ -1,4 +1,4 @@
-from src.lists.func_even_indexes import even_indexes
+from app.lists.func_even_indexes import even_indexes
 import pytest
 
 

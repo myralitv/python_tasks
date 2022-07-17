@@ -1,4 +1,4 @@
-from src.strings.func_user_string import user_string
+from app.strings.func_user_string import user_string
 import pytest
 
 

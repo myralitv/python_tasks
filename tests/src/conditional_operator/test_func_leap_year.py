@@ -1,4 +1,4 @@
-from src.conditional_operator.func_leap_year import leap_year
+from app.conditional_operator.func_leap_year import leap_year
 import pytest
 
 

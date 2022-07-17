@@ -1,10 +1,10 @@
-from src.conditional_operator.func_chess_castle import chess_castle
+from app.conditional_operator.func_chess_castle import chess_castle
 import pytest
 
 
 @pytest.mark.parametrize('x1, y1, x2, y2, expected_result', [(4, 8, 6, 8, "Yes"),
                                                              (4, 8, 4, 1, "Yes"),
-                                                             (4, 8, 9, 1, "No"),
+                                                             (2, 7, 3, 1, "No"),
                                                              (4, 8, 7, 1, "No")])
 def test_func_chess_castle(x1: int, y1: int, x2: int, y2: int, expected_result: str):
     assert chess_castle(x1, y1, x2, y2) == expected_result

@@ -1,4 +1,4 @@
-from src.strings.func_replace import func_replace
+from app.strings.func_replace import func_replace
 import pytest
 
 

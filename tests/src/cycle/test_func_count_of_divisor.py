@@ -1,4 +1,4 @@
-from src.cycle.func_count_of_divisor import count_divisor
+from app.cycle.func_count_of_divisor import count_divisor
 import pytest
 
 

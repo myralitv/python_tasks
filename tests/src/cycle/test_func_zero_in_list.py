@@ -1,4 +1,4 @@
-from src.cycle.func_zero_in_list import zero_in_list
+from app.cycle.func_zero_in_list import zero_in_list
 import pytest
 
 

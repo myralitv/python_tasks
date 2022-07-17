@@ -1,4 +1,4 @@
-from src.cycle.func_sum_of_numbers import sum_of_numbers
+from app.cycle.func_sum_of_numbers import sum_of_numbers
 import pytest
 
 

@@ -1,4 +1,4 @@
-from src.cycle.func_divisor_of_number import divisor_of_number
+from app.cycle.func_divisor_of_number import divisor_of_number
 import pytest
 
 

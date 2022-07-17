@@ -7,6 +7,3 @@ def sum_of_numbers(user_numbers: tuple[:int]) -> int:
     for i in user_numbers:
         sum_numbers += i
     return sum_numbers
-
-
-print(sum_of_numbers((5, -4, -2, 0, 2.5, 4, 6, 4)))

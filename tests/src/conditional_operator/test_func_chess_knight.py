@@ -1,4 +1,4 @@
-from src.conditional_operator.func_chess_knight import chess_knight
+from app.conditional_operator.func_chess_knight import chess_knight
 import pytest
 
 

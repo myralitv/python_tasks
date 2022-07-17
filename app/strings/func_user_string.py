@@ -4,6 +4,3 @@ def user_string(string: str) -> tuple[:str, :int]:
     if len(string) < 5:
         raise ValueError(f'Argument "string":{string} must be greater than or equal to 5')
     return string[2], string[-2], string[:5], string[0:-2], string[::2], string[1::2], string[::-1], len(string)
-
-
-print(user_string('welcome'))

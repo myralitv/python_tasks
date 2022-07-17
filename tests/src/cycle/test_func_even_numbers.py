@@ -1,4 +1,4 @@
-from src.cycle.func_even_numbers import even_numbers
+from app.cycle.func_even_numbers import even_numbers
 import pytest
 
 

@@ -3,6 +3,3 @@ def count_words(word: str) -> int:
         raise TypeError(f'Argument "word" must be string, not {type(word)}')
 
     return len(word.split())
-
-
-print(count_words('gd54'))

@@ -1,4 +1,4 @@
-from src.lists.func_elements_reverse import elements_reverse
+from app.lists.func_elements_reverse import elements_reverse
 import pytest
 
 

@@ -1,4 +1,4 @@
-from src.strings.func_cut_the_h import cut_h
+from app.strings.func_cut_the_h import cut_h
 import pytest
 
 

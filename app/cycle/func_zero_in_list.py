@@ -6,6 +6,3 @@ def zero_in_list(numbers: tuple[:int, :float]) -> str:
         return 'Yes'
     else:
         return 'No'
-
-
-print(zero_in_list((6, 5.5, 5, 0)))
