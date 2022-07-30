@@ -3,10 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
-      <excludeFolder url="file://$MODULE_DIR$/tests/src/conditional_operator/.pytest_cache/v" />
-      <excludeFolder url="file://$MODULE_DIR$/tests/src/cycle/.pytest_cache/v" />
-      <excludeFolder url="file://$MODULE_DIR$/tests/src/lists/.pytest_cache/v" />
-      <excludeFolder url="file://$MODULE_DIR$/tests/src/strings/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/tests/app/lists/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/tests/app/cycle/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/tests/app/conditional_operator/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/tests/app/strings/.pytest_cache/v" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
